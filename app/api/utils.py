@@ -3,9 +3,9 @@ import uuid
 
 from flask import current_app
 from flask_login import current_user
+from typing import Optional, Tuple
 from werkzeug.utils import secure_filename
 from werkzeug.datastructures import FileStorage
-from typing import Optional, Tuple
 
 from app.models import File
 
